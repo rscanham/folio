@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Cabin:400,500,600,700);
+
 /* -------------------------------- 
 
 Primary style
@@ -21,7 +23,7 @@ Primary style
 
 body {
   font-size: 100%;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Cabin', sans-serif;
   font-weight: 300;
   color: rgba(2, 23, 37, 0.7);
   background-color: white;
@@ -164,7 +166,14 @@ html, body {
   -o-transform: translateY(-50%);
   transform: translateY(-50%);
   left: .875em;
+  font-size: 1.0em;
+  color: #fff;
+  text-transform: uppercase;
 }
+.cd-logo a:link, .cd-logo a:visited 
+  {
+    color: #fff;
+  }
 .cd-logo img {
   display: block;
 }
@@ -436,7 +445,8 @@ The .cd-intro change the background image
 .cd-intro {
   position: relative;
   height: 100%;
-  background: url(http://static.tumblr.com/1ccbc9v/D5snc75yq/cd-intro-bg.jpg) center center;
+/*  background: url(http://static.tumblr.com/1ccbc9v/D5snc75yq/cd-intro-bg.jpg) center center; */  
+  background-color: #444;
   background-size: cover;
   z-index: 1;
   -webkit-font-smoothing: antialiased;
@@ -457,7 +467,7 @@ The .cd-intro change the background image
   transform: translateX(-50%) translateY(-50%);
   color: white;
   font-size: 50px;
-  font-size: 3em;
+  font-size: 5em;
   font-weight: 300;
   text-align: center;
   color: rgb(255,255,255);
